@@ -1,2 +1,29 @@
 @charset "UTF-8";
+:root {
+    /*Colors*/
+    font-family: Helvetica;
+    --color-primary:#F3BE61;
+
+    strong {
+        font-weight: 700!important
+    }
+}
+
+.flash-bar {
+    background-color: var(--color-primary);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pix-icon {
+    width: 20px;
+    height: auto;
+}
+
 
