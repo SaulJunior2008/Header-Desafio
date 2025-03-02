@@ -1,33 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HEADER DESAFIO</title>
-    <link rel="stylesheet" href="../STYLE/estilo.css">
-    <link rel="stylesheet" href="../STYLE/reset.css">
-</head>
-<body>
-<header>
-    <div class="flash-bar">
-        <img class="pix-icon" alt="customSliderLayout" crossorigin="anonymous" data-src="https://multimoveis.vtexassets.com/assets/vtex.file-manager-graphql/images/b72e288a-c914-4092-ae12-54425c23d7ac___9dc5c4c0be5a2dc7cf9a4794ba85b76b.png" loading="lazy" src="https://multimoveis.vtexassets.com/assets/vtex.file-manager-graphql/images/b72e288a-c914-4092-ae12-54425c23d7ac___9dc5c4c0be5a2dc7cf9a4794ba85b76b.png"><p>Todo site com <strong>25% OFF no Pix</strong></p>
-    </div>
-    <div class="header-primary">
-        <img id="logo" src="https://multimoveis.vtexassets.com/assets/vtex/assets-builder/multimoveis.store/2.1.0/svg/logo-multimoveis___1639ff5bfdf57fe30d53bd3277cdedf4.svg" alt="">
+    <link rel="stylesheet" href="../STYLE/estilo.css" />
+    <link rel="stylesheet" href="../STYLE/reset.css" />
+    <link rel="stylesheet" href="../STYLE/dropdown.css" />
+  </head>
+  <body>
+    <header>
+      <div class="flash-bar">
+        <img
+          class="pix-icon"
+          alt="customSliderLayout"
+          crossorigin="anonymous"
+          data-src="https://multimoveis.vtexassets.com/assets/vtex.file-manager-graphql/images/b72e288a-c914-4092-ae12-54425c23d7ac___9dc5c4c0be5a2dc7cf9a4794ba85b76b.png"
+          loading="lazy"
+          src="https://multimoveis.vtexassets.com/assets/vtex.file-manager-graphql/images/b72e288a-c914-4092-ae12-54425c23d7ac___9dc5c4c0be5a2dc7cf9a4794ba85b76b.png"
+        />
+        <p>Todo site com <strong>25% OFF no Pix</strong></p>
+      </div>
+      <div class="container">
+        <div id="top-header-container">
+          <div class="header-primary">
+            <img
+              id="logo"
+              src="https://multimoveis.vtexassets.com/assets/vtex/assets-builder/multimoveis.store/2.1.0/svg/logo-multimoveis___1639ff5bfdf57fe30d53bd3277cdedf4.svg"
+              alt=""
+            />
+            <div id="icon-bar-box">
+              <div class="barra-pesquisa-box">
+                <input
+                  id="barra-pesquisa"
+                  type="search"
+                  placeholder="Busque na Multimóveis..."
+                />
+                <button id="botao-pesquisa" type="submit">🔍</button>
+              </div>
+              <div class="icon-container">
+                <span id="wishlist">💗</span>
+                <span id="conta">👤</span>
+                <span id="carrinho">🛒</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="categoria-container">
+          <div class="subcat">
+            <button class="subcatbtn">Cozinha</button>
+            <div class="subcat-content">
+              <a href="#">ARMÁRIO</a>
+              <a href="#">TAMPAS</a>
+              <a href="#">BALCÕES</a>
+              <a href="#">FOGÕES</a>
+              <a href="#">COZINHA COMPACTA</a>
+              <a href="#">FORNOS</a>
+              <a href="#">COZINHA COMPLETA</a>
+              <a href="#">MESAS</a>
+              <a href="#">PANELEIROS</a>
+            </div>
 
-        <input id="barra-pesquisa" type="search" placeholder="Busque na Multimóveis..." />
-        <button id="botao-pesquisa" type="submit"><img src="../Img/logo-pesquisa/Arturo-Wibawa-Akar-Search.svg"></button>
+            <button class="subcatbtn">Quarto</button>
+            <div class="subcat-content">
+              <a href="#">BASES PARA BOX</a>
+              <a href="#">CABIDEIROS</a>
+              <a href="#">CAMAS</a>
+              <a href="#">CÔMODAS</a>
+              <a href="#">COLCHÕES</a>
+              <a href="#">CABECEIRAS</a>
+              <a href="#">MESAS DE CABECEIRA</a>
+              <a href="#">SAPATEIRAS</a>
+              <a href="#">BAÚS</a>
+              <a href="#">CONJUGADOS</a>
+              <a href="#">GUARDA-ROUPAS</a>
+              <a href="#">CLOSETS</a>
+            </div>
 
-        <img id="wishlist" src="../Img/logo-whishlist/Icons8-Ios7-Gaming-Hearts.32.png" alt="">
-        <img id="conta" src="../Img/logo-acount/Pictogrammers-Material-Light-Account.32.png" alt="">
-        <img id="carrinho" src="../Img/logo-carrinho/Iconoir-Team-Iconoir-Cart.32.png" alt="">
-        
-    </div>
-    <div class="categories">
-        <h1>categorias</h1>
-    </div>
-</header>
-</body>
+            <button class="subcatbtn">Sala de Jantar</button>
+            <div class="subcat-content">
+              <a href="#">APARADORES</a>
+              <a href="#">BARES</a>
+              <a href="#">CADEIRAS</a>
+              <a href="#">CONJUNTOS</a>
+              <a href="#">CRISTALEIRAS</a>
+              <a href="#">MESAS</a>
+            </div>
+
+            <button class="subcatbtn">Sala de Estar</button>
+            <div class="subcat-content">
+              <a href="#">MESAS DE CENTRO E AUXILIARES</a>
+              <a href="#">PAINÉIS DE TV</a>
+              <a href="#">PRATELEIRAS</a>
+              <a href="#">RACKS COM PAINEL</a>
+              <a href="#">RACKS</a>
+              <a href="#">SOFÁS</a>
+              <a href="#">POLTRONAS</a>
+              <a href="#">PUFFS</a>
+            </div>
+
+            <button class="subcatbtn">Escritório</button>
+            <div class="subcat-content">
+              <a href="#">ARMÁRIOS</a>
+              <a href="#">BALCÕES</a>
+              <a href="#">CONJUNTO</a>
+              <a href="#">ESCRIVANINHAS</a>
+              <a href="#">ESTANTES</a>
+              <a href="#">GAVETEIROS</a>
+              <a href="#">MESAS GAMER</a>
+            </div>
+
+            <button class="subcatbtn">Banheiro</button>
+            <div class="subcat-content">
+              <a href="#">ARMÁRIOS</a>
+              <a href="#">BALCÕES</a>
+              <a href="#">CONJUNTOS</a>
+            </div>
+
+            <button class="subcatbtn">Lavanderia</button>
+            <div class="subcat-content">
+              <a href="#">ARMÁRIOS</a>
+              <a href="#">BALCÕES</a>
+              <a href="#">CONJUNTOS</a>
+            </div>
+
+            <button class="subcatbtn">Infantil</button>
+            <div class="subcat-content">
+              <a href="#">BAÚS</a>
+              <a href="#">NICHOS</a>
+              <a href="#">BERÇOS</a>
+              <a href="#">PENTEADEIRAS</a>
+              <a href="#">CAMAS</a>
+              <a href="#">PRATELEIRAS</a>
+              <a href="#">CÔMODAS</a>
+              <a href="#">COMPLETO</a>
+              <a href="#">GUARDA-ROUPAS</a>
+            </div>
+
+            <button id="btn-COMPRE-APP">
+              <a href="#">
+                  Compre pelo APP
+              </a>
+           </button>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="/JavaScript/index.js"></script>
+  </body>
 </html>
-
-
